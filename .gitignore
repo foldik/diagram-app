@@ -1,0 +1,6 @@
+.idea/
+target/
+*.iml
+node/
+node_modules/
+src/main/resources/dist/

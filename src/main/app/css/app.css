@@ -1,0 +1,45 @@
+html {
+	font-size: 16px;
+	font-family: 'PT Mono', monospace;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+}
+
+
+.container {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background-color: rgb(200,200,200);
+}
+
+#file-upload-container {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	width: 500px;
+	height: 309px;
+	margin: auto;
+	background-color: rgb(230,230,230);
+	border-radius: 2px;
+	box-shadow:0 4px 16px rgba(0, 0, 0, 0.4), 0 0 10px rgba(0, 0, 0, 0.1) inset;
+	transition: all 0.4s;
+
+	font-size: 2rem;
+	color: rgb(150,150,150);
+	text-align: center;;
+	vertical-align: middle;
+	line-height: 309px;
+}
+
+#file-upload-container:hover {
+	 box-shadow:0 1px 4px rgba(0, 0, 0, 0.4), 0 0 10px rgba(0, 0, 0, 0.1) inset;
+	 color: rgb(190,190,190);
+}
